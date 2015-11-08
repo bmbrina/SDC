@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0998F7BD628BE5F097860A4140150BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		196CF454A913830FA8D22D0E8990EFF3 /* BMCustomTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86AF4C36B776E19431E7FD63143F52C0 /* BMCustomTableView.bundle */; };
+		1ECABA24D477D0DBE6A1FAC8C4FF66D4 /* BMCustomTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E14A17C4AA91CBABB7118FCCCF53D0C6 /* BMCustomTableView-dummy.m */; };
+		43CE83EC4B3EB8C4ADACD0CD6B95F288 /* Pods-semanaDelCodigo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E30804325DDEBB1B5DB3B04C7B8842F0 /* Pods-semanaDelCodigo-dummy.m */; };
+		5A77AB7DAC2E3469B6A011308AD53991 /* ColorDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0366F8D6D4E1EBD7188A9B4E5A5BE89 /* ColorDefinition.swift */; };
+		60FE0069961B19EF411A4F4AC67AE1E5 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584F7F2F45E01CDF69AD0F237A19D0 /* RandomColor.swift */; };
+		651A93A4D78B52E698C16859F12964EF /* RandomColorSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D684CE4C93EB500197412EFC6EC1D987 /* RandomColorSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A8B9F7B8D37FC103F9076D0A257209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9A1A9254E360034785FBAC2812BA786A /* RandomColorSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89709D5B060D81D462580A38E9C2DF67 /* RandomColorSwift-dummy.m */; };
+		9CBD45B12FC9EF9354A950CFD2C5E96C /* BMCustomTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C9DD1D317D51AA34DCD538124A8B1D /* BMCustomTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E1EE9DB75CBD1F2F11B1C9BBECEAB2 /* Pods-semanaDelCodigo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6108504D7D016E7F516CFE4FB16699C8 /* Pods-semanaDelCodigo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B5D475CFEC2A5692A1DD1F0EE7AEF1 /* Luminosity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3663EB282C70FC66E76A047B68A4AA /* Luminosity.swift */; };
+		D2F368FAA81FB279D509ED5A72C84446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E1B8B2D82A5BE0FBBF502E6E7CC3CC3A /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5648F354D9EAB5EF2945ECE4090258 /* Hue.swift */; };
+		EC533A3C5A76BDE71A854549741AC821 /* BMCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9836AB9DC61AE9080B7EC75277529D /* BMCustomTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0838A48A212C5779FA456E245B2C978B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8E79E26422E7DCD9A2D51FF8370B66;
+			remoteInfo = RandomColorSwift;
+		};
+		4C086C1703DB49B3A5C110BB0DD552BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7A25ADDB1BCD3BB009B6FD664090B0;
+			remoteInfo = "BMCustomTableView-BMCustomTableView";
+		};
+		CEA2C19AA5D657EDF964B8AE2AEDEA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6DC4437F0FFEE0055694E0D01AC13A5;
+			remoteInfo = BMCustomTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB54217DB2DBDEA05C742030C09A49B /* Pods-semanaDelCodigo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-semanaDelCodigo-acknowledgements.plist"; sourceTree = "<group>"; };
+		10E9716559E2C34E1E95E91FB56A78DE /* Pods_semanaDelCodigo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_semanaDelCodigo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8AA4F55CC859618EBB385AB885683F /* RandomColorSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomColorSwift-prefix.pch"; sourceTree = "<group>"; };
+		312B683968DD9D54BD4788D2AEEE7582 /* Pods-semanaDelCodigo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-semanaDelCodigo-frameworks.sh"; sourceTree = "<group>"; };
+		352613C3D6D2293561553802D31020CC /* BMCustomTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMCustomTableView.xcconfig; sourceTree = "<group>"; };
+		361DE213E2C1CFA79FBEF17263C0549F /* RandomColorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RandomColorSwift.modulemap; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FAAAFD565CEE04BE8ECEFCCEB30D8AE /* Pods-semanaDelCodigo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-semanaDelCodigo.modulemap"; sourceTree = "<group>"; };
+		4C9836AB9DC61AE9080B7EC75277529D /* BMCustomTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMCustomTableView.swift; path = Pod/Classes/BMCustomTableView.swift; sourceTree = "<group>"; };
+		5395D95AFFA7498D13A479882BB8E39F /* BMCustomTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMCustomTableView-prefix.pch"; sourceTree = "<group>"; };
+		60050C03B1CB635E1EF81DFB8BC68349 /* Pods-semanaDelCodigo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-semanaDelCodigo.release.xcconfig"; sourceTree = "<group>"; };
+		6108504D7D016E7F516CFE4FB16699C8 /* Pods-semanaDelCodigo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-semanaDelCodigo-umbrella.h"; sourceTree = "<group>"; };
+		656C176083655E5E608587F9E64F5422 /* RandomColorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomColorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A3B8B57B9FD101672D094B627DA260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3663EB282C70FC66E76A047B68A4AA /* Luminosity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Luminosity.swift; path = RandomColor/Luminosity.swift; sourceTree = "<group>"; };
+		83C9DD1D317D51AA34DCD538124A8B1D /* BMCustomTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMCustomTableView-umbrella.h"; sourceTree = "<group>"; };
+		86AF4C36B776E19431E7FD63143F52C0 /* BMCustomTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMCustomTableView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C89CBC61148D4B68D85D899CF3B8DA /* Pods-semanaDelCodigo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-semanaDelCodigo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89709D5B060D81D462580A38E9C2DF67 /* RandomColorSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomColorSwift-dummy.m"; sourceTree = "<group>"; };
+		8F5648F354D9EAB5EF2945ECE4090258 /* Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hue.swift; path = RandomColor/Hue.swift; sourceTree = "<group>"; };
+		95B4DD56617CA93E2F61FDA6E7BA9ACF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CB1814DE03F6D1A2D2B26246B4317C /* Pods-semanaDelCodigo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-semanaDelCodigo-resources.sh"; sourceTree = "<group>"; };
+		A6633ADF6FA3DF034008C0F266649868 /* RandomColorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomColorSwift.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0366F8D6D4E1EBD7188A9B4E5A5BE89 /* ColorDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorDefinition.swift; path = RandomColor/ColorDefinition.swift; sourceTree = "<group>"; };
+		C6AB7C3DAB5FAC9BBF721D1260618BBE /* Pods-semanaDelCodigo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-semanaDelCodigo.debug.xcconfig"; sourceTree = "<group>"; };
+		C8145EA11B24476DC226BF39D693E235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D684CE4C93EB500197412EFC6EC1D987 /* RandomColorSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomColorSwift-umbrella.h"; sourceTree = "<group>"; };
+		DAFC477002255D3DC65F638932CAA210 /* BMCustomTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BMCustomTableView.modulemap; sourceTree = "<group>"; };
+		DF584F7F2F45E01CDF69AD0F237A19D0 /* RandomColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomColor.swift; path = RandomColor/RandomColor.swift; sourceTree = "<group>"; };
+		E14A17C4AA91CBABB7118FCCCF53D0C6 /* BMCustomTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMCustomTableView-dummy.m"; sourceTree = "<group>"; };
+		E30804325DDEBB1B5DB3B04C7B8842F0 /* Pods-semanaDelCodigo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-semanaDelCodigo-dummy.m"; sourceTree = "<group>"; };
+		F34F7C221F2BD5BF63C54ADEC728500B /* BMCustomTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMCustomTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014282AAADAFFD18E2203F9BFEFAE99B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0998F7BD628BE5F097860A4140150BFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7381A2683D0C71EBD57078F055702DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3C4FD92E9BF9D29F07170D3380A478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F368FAA81FB279D509ED5A72C84446 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0FFBE208DA5AD62283B08E9C191CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A8B9F7B8D37FC103F9076D0A257209 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095E9F11E9BD290E607545F657EB0A8B /* Pods-semanaDelCodigo */ = {
+			isa = PBXGroup;
+			children = (
+				95B4DD56617CA93E2F61FDA6E7BA9ACF /* Info.plist */,
+				3FAAAFD565CEE04BE8ECEFCCEB30D8AE /* Pods-semanaDelCodigo.modulemap */,
+				88C89CBC61148D4B68D85D899CF3B8DA /* Pods-semanaDelCodigo-acknowledgements.markdown */,
+				0BB54217DB2DBDEA05C742030C09A49B /* Pods-semanaDelCodigo-acknowledgements.plist */,
+				E30804325DDEBB1B5DB3B04C7B8842F0 /* Pods-semanaDelCodigo-dummy.m */,
+				312B683968DD9D54BD4788D2AEEE7582 /* Pods-semanaDelCodigo-frameworks.sh */,
+				A3CB1814DE03F6D1A2D2B26246B4317C /* Pods-semanaDelCodigo-resources.sh */,
+				6108504D7D016E7F516CFE4FB16699C8 /* Pods-semanaDelCodigo-umbrella.h */,
+				C6AB7C3DAB5FAC9BBF721D1260618BBE /* Pods-semanaDelCodigo.debug.xcconfig */,
+				60050C03B1CB635E1EF81DFB8BC68349 /* Pods-semanaDelCodigo.release.xcconfig */,
+			);
+			name = "Pods-semanaDelCodigo";
+			path = "Target Support Files/Pods-semanaDelCodigo";
+			sourceTree = "<group>";
+		};
+		45FE64558F01DABFA04E5D4D9A664E91 /* RandomColorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C0366F8D6D4E1EBD7188A9B4E5A5BE89 /* ColorDefinition.swift */,
+				8F5648F354D9EAB5EF2945ECE4090258 /* Hue.swift */,
+				7D3663EB282C70FC66E76A047B68A4AA /* Luminosity.swift */,
+				DF584F7F2F45E01CDF69AD0F237A19D0 /* RandomColor.swift */,
+				DC90F98F5343E26ADE8096B23FCCA9FA /* Support Files */,
+			);
+			path = RandomColorSwift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9FEFC113E580073E6347A458887B94F3 /* Pods */,
+				852C50FA2C5E7E58A0FA9B8C1BFBE703 /* Products */,
+				CD47913C608E756583B8031D628755BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		852C50FA2C5E7E58A0FA9B8C1BFBE703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AF4C36B776E19431E7FD63143F52C0 /* BMCustomTableView.bundle */,
+				F34F7C221F2BD5BF63C54ADEC728500B /* BMCustomTableView.framework */,
+				10E9716559E2C34E1E95E91FB56A78DE /* Pods_semanaDelCodigo.framework */,
+				656C176083655E5E608587F9E64F5422 /* RandomColorSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FEFC113E580073E6347A458887B94F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7DD864F32EA41AB4CA656869DFF64F6 /* BMCustomTableView */,
+				45FE64558F01DABFA04E5D4D9A664E91 /* RandomColorSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD47913C608E756583B8031D628755BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				095E9F11E9BD290E607545F657EB0A8B /* Pods-semanaDelCodigo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D249A41CB7225CCB846CC40FEE04B9DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAFC477002255D3DC65F638932CAA210 /* BMCustomTableView.modulemap */,
+				352613C3D6D2293561553802D31020CC /* BMCustomTableView.xcconfig */,
+				E14A17C4AA91CBABB7118FCCCF53D0C6 /* BMCustomTableView-dummy.m */,
+				5395D95AFFA7498D13A479882BB8E39F /* BMCustomTableView-prefix.pch */,
+				83C9DD1D317D51AA34DCD538124A8B1D /* BMCustomTableView-umbrella.h */,
+				C8145EA11B24476DC226BF39D693E235 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BMCustomTableView";
+			sourceTree = "<group>";
+		};
+		DC90F98F5343E26ADE8096B23FCCA9FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A3B8B57B9FD101672D094B627DA260 /* Info.plist */,
+				361DE213E2C1CFA79FBEF17263C0549F /* RandomColorSwift.modulemap */,
+				A6633ADF6FA3DF034008C0F266649868 /* RandomColorSwift.xcconfig */,
+				89709D5B060D81D462580A38E9C2DF67 /* RandomColorSwift-dummy.m */,
+				2A8AA4F55CC859618EBB385AB885683F /* RandomColorSwift-prefix.pch */,
+				D684CE4C93EB500197412EFC6EC1D987 /* RandomColorSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RandomColorSwift";
+			sourceTree = "<group>";
+		};
+		E7DD864F32EA41AB4CA656869DFF64F6 /* BMCustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4C9836AB9DC61AE9080B7EC75277529D /* BMCustomTableView.swift */,
+				D249A41CB7225CCB846CC40FEE04B9DB /* Support Files */,
+			);
+			path = BMCustomTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DCCFC35809A7D18B8763FE071797246 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651A93A4D78B52E698C16859F12964EF /* RandomColorSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3169E58FBEC0C1A3A54524A462F23325 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1EE9DB75CBD1F2F11B1C9BBECEAB2 /* Pods-semanaDelCodigo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A755701643F71EEA19C31496124A35AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBD45B12FC9EF9354A950CFD2C5E96C /* BMCustomTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D8E79E26422E7DCD9A2D51FF8370B66 /* RandomColorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F1E74148FB563CCF5AFDD611495856 /* Build configuration list for PBXNativeTarget "RandomColorSwift" */;
+			buildPhases = (
+				72E23FF2D9AC6CB6FFA7DFD07DE3025D /* Sources */,
+				D4B0FFBE208DA5AD62283B08E9C191CB /* Frameworks */,
+				1DCCFC35809A7D18B8763FE071797246 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomColorSwift;
+			productName = RandomColorSwift;
+			productReference = 656C176083655E5E608587F9E64F5422 /* RandomColorSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F7A25ADDB1BCD3BB009B6FD664090B0 /* BMCustomTableView-BMCustomTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A1E026D4333E519715A27E14871442 /* Build configuration list for PBXNativeTarget "BMCustomTableView-BMCustomTableView" */;
+			buildPhases = (
+				0BF8F307D0F87421ACB4F884510AF119 /* Sources */,
+				7381A2683D0C71EBD57078F055702DA6 /* Frameworks */,
+				6C502068B2AB9705067CADEBDBEDC062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMCustomTableView-BMCustomTableView";
+			productName = "BMCustomTableView-BMCustomTableView";
+			productReference = 86AF4C36B776E19431E7FD63143F52C0 /* BMCustomTableView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4B426856EB50DDB37C2AF740E12D661B /* Pods-semanaDelCodigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0005B6575793673CB815DCD5BBCD7A31 /* Build configuration list for PBXNativeTarget "Pods-semanaDelCodigo" */;
+			buildPhases = (
+				2B584D57CC1C072DD2254BDD0F80E96F /* Sources */,
+				014282AAADAFFD18E2203F9BFEFAE99B /* Frameworks */,
+				3169E58FBEC0C1A3A54524A462F23325 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				964AB420672E7B2EABEB09615CF0F4AB /* PBXTargetDependency */,
+				2AB7AAC24D553E15CBBB24C721857A44 /* PBXTargetDependency */,
+			);
+			name = "Pods-semanaDelCodigo";
+			productName = "Pods-semanaDelCodigo";
+			productReference = 10E9716559E2C34E1E95E91FB56A78DE /* Pods_semanaDelCodigo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6DC4437F0FFEE0055694E0D01AC13A5 /* BMCustomTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34E96EFC41FB8676FFC52544473A85A /* Build configuration list for PBXNativeTarget "BMCustomTableView" */;
+			buildPhases = (
+				9936B07F2B637FD3C1955414373F4090 /* Sources */,
+				8A3C4FD92E9BF9D29F07170D3380A478 /* Frameworks */,
+				615BB27E5709DF47C5BA365E662C3510 /* Resources */,
+				A755701643F71EEA19C31496124A35AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D469758E0CE794F510512F9C41BC663 /* PBXTargetDependency */,
+			);
+			name = BMCustomTableView;
+			productName = BMCustomTableView;
+			productReference = F34F7C221F2BD5BF63C54ADEC728500B /* BMCustomTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 852C50FA2C5E7E58A0FA9B8C1BFBE703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DC4437F0FFEE0055694E0D01AC13A5 /* BMCustomTableView */,
+				3F7A25ADDB1BCD3BB009B6FD664090B0 /* BMCustomTableView-BMCustomTableView */,
+				4B426856EB50DDB37C2AF740E12D661B /* Pods-semanaDelCodigo */,
+				2D8E79E26422E7DCD9A2D51FF8370B66 /* RandomColorSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615BB27E5709DF47C5BA365E662C3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196CF454A913830FA8D22D0E8990EFF3 /* BMCustomTableView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C502068B2AB9705067CADEBDBEDC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF8F307D0F87421ACB4F884510AF119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B584D57CC1C072DD2254BDD0F80E96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CE83EC4B3EB8C4ADACD0CD6B95F288 /* Pods-semanaDelCodigo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E23FF2D9AC6CB6FFA7DFD07DE3025D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A77AB7DAC2E3469B6A011308AD53991 /* ColorDefinition.swift in Sources */,
+				E1B8B2D82A5BE0FBBF502E6E7CC3CC3A /* Hue.swift in Sources */,
+				B8B5D475CFEC2A5692A1DD1F0EE7AEF1 /* Luminosity.swift in Sources */,
+				60FE0069961B19EF411A4F4AC67AE1E5 /* RandomColor.swift in Sources */,
+				9A1A9254E360034785FBAC2812BA786A /* RandomColorSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9936B07F2B637FD3C1955414373F4090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECABA24D477D0DBE6A1FAC8C4FF66D4 /* BMCustomTableView-dummy.m in Sources */,
+				EC533A3C5A76BDE71A854549741AC821 /* BMCustomTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AB7AAC24D553E15CBBB24C721857A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RandomColorSwift;
+			target = 2D8E79E26422E7DCD9A2D51FF8370B66 /* RandomColorSwift */;
+			targetProxy = 0838A48A212C5779FA456E245B2C978B /* PBXContainerItemProxy */;
+		};
+		5D469758E0CE794F510512F9C41BC663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BMCustomTableView-BMCustomTableView";
+			target = 3F7A25ADDB1BCD3BB009B6FD664090B0 /* BMCustomTableView-BMCustomTableView */;
+			targetProxy = 4C086C1703DB49B3A5C110BB0DD552BD /* PBXContainerItemProxy */;
+		};
+		964AB420672E7B2EABEB09615CF0F4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMCustomTableView;
+			target = B6DC4437F0FFEE0055694E0D01AC13A5 /* BMCustomTableView */;
+			targetProxy = CEA2C19AA5D657EDF964B8AE2AEDEA22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1561C9D4ACCBF2B6BF08426AC3164F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352613C3D6D2293561553802D31020CC /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BMCustomTableView/BMCustomTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMCustomTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMCustomTableView/BMCustomTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29EC266995C60244FE8FD0C1954FEE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352613C3D6D2293561553802D31020CC /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		382B8FD78FA48375A49D4DB3842F83EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60050C03B1CB635E1EF81DFB8BC68349 /* Pods-semanaDelCodigo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-semanaDelCodigo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-semanaDelCodigo/Pods-semanaDelCodigo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_semanaDelCodigo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D0CED2D31A114C39A17F4A755D14EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6633ADF6FA3DF034008C0F266649868 /* RandomColorSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RandomColorSwift/RandomColorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RandomColorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RandomColorSwift/RandomColorSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RandomColorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		860BFE7BEEDBBABF3083AAAE4AFB392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352613C3D6D2293561553802D31020CC /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A214D133F88FF38D5090D3664E3299A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AB7C3DAB5FAC9BBF721D1260618BBE /* Pods-semanaDelCodigo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-semanaDelCodigo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-semanaDelCodigo/Pods-semanaDelCodigo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_semanaDelCodigo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B565080C1FC6A5F1DDEA542FBAA460AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6633ADF6FA3DF034008C0F266649868 /* RandomColorSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RandomColorSwift/RandomColorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RandomColorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RandomColorSwift/RandomColorSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RandomColorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF6BC49FC9E84D41E9421DD19F683DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352613C3D6D2293561553802D31020CC /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BMCustomTableView/BMCustomTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMCustomTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMCustomTableView/BMCustomTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0005B6575793673CB815DCD5BBCD7A31 /* Build configuration list for PBXNativeTarget "Pods-semanaDelCodigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214D133F88FF38D5090D3664E3299A2 /* Debug */,
+				382B8FD78FA48375A49D4DB3842F83EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F1E74148FB563CCF5AFDD611495856 /* Build configuration list for PBXNativeTarget "RandomColorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0CED2D31A114C39A17F4A755D14EFE /* Debug */,
+				B565080C1FC6A5F1DDEA542FBAA460AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34E96EFC41FB8676FFC52544473A85A /* Build configuration list for PBXNativeTarget "BMCustomTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6BC49FC9E84D41E9421DD19F683DDC /* Debug */,
+				1561C9D4ACCBF2B6BF08426AC3164F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A1E026D4333E519715A27E14871442 /* Build configuration list for PBXNativeTarget "BMCustomTableView-BMCustomTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860BFE7BEEDBBABF3083AAAE4AFB392F /* Debug */,
+				29EC266995C60244FE8FD0C1954FEE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

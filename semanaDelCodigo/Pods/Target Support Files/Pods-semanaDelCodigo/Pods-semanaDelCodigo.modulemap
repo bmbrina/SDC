@@ -1,0 +1,6 @@
+framework module Pods_semanaDelCodigo {
+  umbrella header "Pods-semanaDelCodigo-umbrella.h"
+
+  export *
+  module * { export * }
+}

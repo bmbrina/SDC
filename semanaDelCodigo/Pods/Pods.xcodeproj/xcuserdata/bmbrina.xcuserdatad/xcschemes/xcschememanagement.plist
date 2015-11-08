@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BMCustomTableView-BMCustomTableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BMCustomTableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-semanaDelCodigo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RandomColorSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2D8E79E26422E7DCD9A2D51FF8370B66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F7A25ADDB1BCD3BB009B6FD664090B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4B426856EB50DDB37C2AF740E12D661B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6DC4437F0FFEE0055694E0D01AC13A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
